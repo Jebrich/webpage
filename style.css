@@ -1,0 +1,166 @@
+
+body {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+	margin: 0;
+	padding: 0;
+}
+
+.promo {
+    text-align: center;
+    padding: 20px;
+    background-image: url(./vista-dall-alto-deliziosa-pasta-sul-piatto.jpg);
+	background-size: 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 25px;
+	
+}
+
+.promo h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+	text-align: left;
+}
+
+.promo p {
+    font-size: 1.2em;
+    color: #555;
+	text-align: left;
+	width: 50%;
+}
+
+header > img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav {
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-self: center;
+	width: 90%;
+    background-color: #483C32;
+    border-radius: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center; 
+    align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+li a {
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: x-large;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+li:hover{
+	transform: scale(1.2);
+}
+li a:hover {
+    color: #F4CF14;
+	
+}
+
+section {
+	display: flex;
+}
+
+article {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+article img.img {
+    width: 100%;
+    height: auto;
+}
+article h2 {
+	font-size: 2em;
+	margin: 0;
+	padding: 20px;
+	background-color: #f4cf14b3;
+	color: #483C32;
+	text-align: center;
+
+}
+.article-content {
+    padding: 20px;
+}
+
+
+footer {
+	/* position: absolute; */
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+	left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer div {
+    flex: 1;
+}
+
+
+
+#copyright {
+border-top: 1px solid black;
+text-align: right;
+margin-right: 20px;
+} 
+
+#footerLogo {
+    height: 80px;
+    width: auto; 
+	margin-left: 20px;
+}
+
+#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 25%;
+	width: 50%;
+}
+
+.button{
+	background-color: #483C32;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.btn {
+	text-align: center;
+}
+
+
